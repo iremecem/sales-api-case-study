@@ -1,9 +1,12 @@
 # sales-api-case-study
 
+## Description
 Three RESTful API endpoints using Node.js with express.js framework.
 This API will take some parameters and query the provided MongoDB 
 instance in order to create a response of the requested format.
 
+## Settings
+You must enter your credentials to the db.config.js file under src/configs/ directory with database information.
 
 ## Getting Started
 
