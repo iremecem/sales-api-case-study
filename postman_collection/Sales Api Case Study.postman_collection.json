@@ -1,0 +1,536 @@
+{
+    "info": {
+        "_postman_id": "58ff9ee7-a656-4df0-bc3a-b9fb177b28c2",
+        "name": "Sales Api Case Study",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "/country",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://127.0.0.1:3000/country",
+                    "protocol": "http",
+                    "host": ["127", "0", "0", "1"],
+                    "port": "3000",
+                    "path": ["country"]
+                }
+            },
+            "response": [
+                {
+                    "name": "/country",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/country",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["country"]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "4016"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"fb0-DXX9xKKSkXDPLh3xcIwbPC1BE4w\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:12:01 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"name\": \"Japan\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Sweden\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"United Kingdom\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"China\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"France\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Morocco\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Kenya\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"United Arab Emirates\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Romania\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Indonesia\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Netherlands\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Mauritus\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Serbia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Malaysia\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Switzerland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Lithuania\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Iceland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Norway\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Saudi Arabia\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Italy\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Kosovo\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Germany\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Spain\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Malta\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Portugal\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Equador\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Belgium\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Latvia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Tunisia\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Qatar\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Bahrain\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Kuwait\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Ukraine\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Croatia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Egypt\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"United States\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Guatemala\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Singapore\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Poland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Australia\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Colombia\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Thailand\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"South Korea\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Philippines\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Albania\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Bulgaria\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Austria\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Denmark\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Greece\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Finland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Costa Rica\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Bosnia and Herzegovina\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Oman\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Lebanon\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"South Africa\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Israel\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Jordan\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Algeria\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Nigeria\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"New Zealand\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Czechia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Hungary\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Slovenia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Dominican Republic\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Trinidad and Tobago\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Panama\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Canada\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Chile\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Estonia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Honduras\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Mexico\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Slovakia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Vietnam\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Taiwan\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Cyprus\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Macedonia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Moldova\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Montenegro\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Tanzania\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Senegal\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Argentina\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Aruba\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Curacao\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Brazil\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"El Salvador\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Jamaica\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Paraguay\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Nicaragua\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Peru\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Uruguay\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Venezuela\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Bangladesh\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Hong Kong\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Pakistan\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Republic of Korea\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Mauritius\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Ecuador\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Myanmar\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Laos\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Republic of Congo\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Iraq\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Puerto Rico\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Ireland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Malawi\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Ghana\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Yemen\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Uganda\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Mongolia\",\n        \"region\": \"APAC\"\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "/country?region=America",
+            "request": {
+                "method": "GET",
+                "header": []
+            },
+            "response": [
+                {
+                    "name": "/country?region=America",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/country?region=America",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["country"],
+                            "query": [
+                                {
+                                    "key": "region",
+                                    "value": "America"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "991"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"3df-tZs5DgjM+Yf5hoXmhu3leKE46mY\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:14:13 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"name\": \"Equador\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"United States\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Guatemala\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Colombia\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Costa Rica\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Dominican Republic\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Trinidad and Tobago\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Panama\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Canada\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Chile\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Honduras\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Mexico\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Argentina\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Aruba\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Curacao\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Brazil\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"El Salvador\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Jamaica\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Paraguay\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Nicaragua\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Peru\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Uruguay\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Venezuela\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Ecuador\",\n        \"region\": \"America\"\n    },\n    {\n        \"name\": \"Puerto Rico\",\n        \"region\": \"America\"\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "/country?region=Apac",
+            "request": {
+                "method": "GET",
+                "header": []
+            },
+            "response": [
+                {
+                    "name": "/country?region=Apac",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/country?region=Apac",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["country"],
+                            "query": [
+                                {
+                                    "key": "region",
+                                    "value": "Apac"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "373"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"175-M3j0J7rbcYQtRPwPcS+879ecKkk\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:14:45 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"name\": \"Japan\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"China\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Indonesia\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Malaysia\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Singapore\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Australia\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Thailand\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"South Korea\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Philippines\",\n        \"region\": \"Apac\"\n    },\n    {\n        \"name\": \"Republic of Korea\",\n        \"region\": \"Apac\"\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "country?region=APAC",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://127.0.0.1:3000/country?region=APAC",
+                    "protocol": "http",
+                    "host": ["127", "0", "0", "1"],
+                    "port": "3000",
+                    "path": ["country"],
+                    "query": [
+                        {
+                            "key": "region",
+                            "value": "APAC"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "name": "country?region=APAC",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/country?region=APAC",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["country"],
+                            "query": [
+                                {
+                                    "key": "region",
+                                    "value": "APAC"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "285"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"11d-9uwXIlf9Z1jLZFJYL1/CxvNDFkg\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:15:57 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"name\": \"New Zealand\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Vietnam\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Taiwan\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Hong Kong\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Pakistan\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Myanmar\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Laos\",\n        \"region\": \"APAC\"\n    },\n    {\n        \"name\": \"Mongolia\",\n        \"region\": \"APAC\"\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "/country?region=Europe",
+            "request": {
+                "method": "GET",
+                "header": []
+            },
+            "response": [
+                {
+                    "name": "/country?region=Europe",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/country?region=Europe",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["country"],
+                            "query": [
+                                {
+                                    "key": "region",
+                                    "value": "Europe"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "1433"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"599-8pl4Am0l+5oJaVIGgG8AJbQjaj8\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:16:40 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"name\": \"Sweden\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"United Kingdom\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"France\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Romania\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Netherlands\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Serbia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Switzerland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Lithuania\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Iceland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Norway\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Italy\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Kosovo\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Germany\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Spain\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Malta\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Portugal\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Belgium\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Latvia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Ukraine\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Croatia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Poland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Albania\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Bulgaria\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Austria\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Denmark\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Greece\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Finland\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Bosnia and Herzegovina\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Czechia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Hungary\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Slovenia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Estonia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Slovakia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Cyprus\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Macedonia\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Moldova\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Montenegro\",\n        \"region\": \"Europe\"\n    },\n    {\n        \"name\": \"Ireland\",\n        \"region\": \"Europe\"\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "/country?region=MEA",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://127.0.0.1:3000/country?region=MEA",
+                    "protocol": "http",
+                    "host": ["127", "0", "0", "1"],
+                    "port": "3000",
+                    "path": ["country"],
+                    "query": [
+                        {
+                            "key": "region",
+                            "value": "MEA"
+                        }
+                    ]
+                }
+            },
+            "response": [
+                {
+                    "name": "/country?region=MEA",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/country?region=MEA",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["country"],
+                            "query": [
+                                {
+                                    "key": "region",
+                                    "value": "MEA"
+                                }
+                            ]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "938"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"3aa-OJ0bvp8+HkOxLHhi/pD/4gQ8Ms8\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:17:16 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"name\": \"Morocco\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Kenya\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"United Arab Emirates\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Mauritus\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Saudi Arabia\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Tunisia\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Qatar\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Bahrain\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Kuwait\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Egypt\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Oman\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Lebanon\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"South Africa\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Israel\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Jordan\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Algeria\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Nigeria\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Tanzania\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Senegal\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Bangladesh\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Mauritius\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Republic of Congo\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Iraq\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Malawi\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Ghana\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Yemen\",\n        \"region\": \"MEA\"\n    },\n    {\n        \"name\": \"Uganda\",\n        \"region\": \"MEA\"\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "/salesrep",
+            "request": {
+                "method": "GET",
+                "header": []
+            },
+            "response": [
+                {
+                    "name": "/salesrep",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/salesrep",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["salesrep"]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "256"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"100-r5AYG2dnk4myiwYR/y4jywQDo/w\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:17:37 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"region\": \"Apac\",\n        \"minSalesRep\": 2,\n        \"maxSalesRep\": 3\n    },\n    {\n        \"region\": \"Europe\",\n        \"minSalesRep\": 6,\n        \"maxSalesRep\": 12\n    },\n    {\n        \"region\": \"MEA\",\n        \"minSalesRep\": 4,\n        \"maxSalesRep\": 9\n    },\n    {\n        \"region\": \"America\",\n        \"minSalesRep\": 4,\n        \"maxSalesRep\": 8\n    },\n    {\n        \"region\": \"APAC\",\n        \"minSalesRep\": 2,\n        \"maxSalesRep\": 2\n    }\n]"
+                }
+            ]
+        },
+        {
+            "name": "/optimal",
+            "request": {
+                "method": "GET",
+                "header": []
+            },
+            "response": [
+                {
+                    "name": "/optimal",
+                    "originalRequest": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "http://127.0.0.1:3000/optimal",
+                            "protocol": "http",
+                            "host": ["127", "0", "0", "1"],
+                            "port": "3000",
+                            "path": ["optimal"]
+                        }
+                    },
+                    "status": "OK",
+                    "code": 200,
+                    "_postman_previewlanguage": "json",
+                    "header": [
+                        {
+                            "key": "X-Powered-By",
+                            "value": "Express"
+                        },
+                        {
+                            "key": "Content-Type",
+                            "value": "application/json; charset=utf-8"
+                        },
+                        {
+                            "key": "Content-Length",
+                            "value": "2130"
+                        },
+                        {
+                            "key": "ETag",
+                            "value": "W/\"852-HpYVbdjgvfgvxIrCJl9dJ8c9PLE\""
+                        },
+                        {
+                            "key": "Date",
+                            "value": "Fri, 11 Feb 2022 20:17:55 GMT"
+                        },
+                        {
+                            "key": "Connection",
+                            "value": "keep-alive"
+                        },
+                        {
+                            "key": "Keep-Alive",
+                            "value": "timeout=5"
+                        }
+                    ],
+                    "cookie": [],
+                    "body": "[\n    {\n        \"region\": \"Apac\",\n        \"countryList\": [\n            \"Japan\",\n            \"China\",\n            \"Indonesia\",\n            \"Malaysia\",\n            \"Singapore\"\n        ],\n        \"countryCount\": 5\n    },\n    {\n        \"region\": \"Apac\",\n        \"countryList\": [\n            \"Australia\",\n            \"Thailand\",\n            \"South Korea\",\n            \"Philippines\",\n            \"Republic of Korea\"\n        ],\n        \"countryCount\": 5\n    },\n    {\n        \"region\": \"Europe\",\n        \"countryList\": [\n            \"Sweden\",\n            \"United Kingdom\",\n            \"France\",\n            \"Romania\",\n            \"Netherlands\",\n            \"Serbia\",\n            \"Switzerland\"\n        ],\n        \"countryCount\": 7\n    },\n    {\n        \"region\": \"Europe\",\n        \"countryList\": [\n            \"Lithuania\",\n            \"Iceland\",\n            \"Norway\",\n            \"Italy\",\n            \"Kosovo\",\n            \"Germany\",\n            \"Spain\"\n        ],\n        \"countryCount\": 7\n    },\n    {\n        \"region\": \"Europe\",\n        \"countryList\": [\n            \"Malta\",\n            \"Portugal\",\n            \"Belgium\",\n            \"Latvia\",\n            \"Ukraine\",\n            \"Croatia\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"Europe\",\n        \"countryList\": [\n            \"Poland\",\n            \"Albania\",\n            \"Bulgaria\",\n            \"Austria\",\n            \"Denmark\",\n            \"Greece\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"Europe\",\n        \"countryList\": [\n            \"Finland\",\n            \"Bosnia and Herzegovina\",\n            \"Czechia\",\n            \"Hungary\",\n            \"Slovenia\",\n            \"Estonia\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"Europe\",\n        \"countryList\": [\n            \"Slovakia\",\n            \"Cyprus\",\n            \"Macedonia\",\n            \"Moldova\",\n            \"Montenegro\",\n            \"Ireland\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"MEA\",\n        \"countryList\": [\n            \"Morocco\",\n            \"Kenya\",\n            \"United Arab Emirates\",\n            \"Mauritus\",\n            \"Saudi Arabia\",\n            \"Tunisia\",\n            \"Qatar\"\n        ],\n        \"countryCount\": 7\n    },\n    {\n        \"region\": \"MEA\",\n        \"countryList\": [\n            \"Bahrain\",\n            \"Kuwait\",\n            \"Egypt\",\n            \"Oman\",\n            \"Lebanon\",\n            \"South Africa\",\n            \"Israel\"\n        ],\n        \"countryCount\": 7\n    },\n    {\n        \"region\": \"MEA\",\n        \"countryList\": [\n            \"Jordan\",\n            \"Algeria\",\n            \"Nigeria\",\n            \"Tanzania\",\n            \"Senegal\",\n            \"Bangladesh\",\n            \"Mauritius\"\n        ],\n        \"countryCount\": 7\n    },\n    {\n        \"region\": \"MEA\",\n        \"countryList\": [\n            \"Republic of Congo\",\n            \"Iraq\",\n            \"Malawi\",\n            \"Ghana\",\n            \"Yemen\",\n            \"Uganda\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"America\",\n        \"countryList\": [\n            \"Equador\",\n            \"United States\",\n            \"Guatemala\",\n            \"Colombia\",\n            \"Costa Rica\",\n            \"Dominican Republic\",\n            \"Trinidad and Tobago\"\n        ],\n        \"countryCount\": 7\n    },\n    {\n        \"region\": \"America\",\n        \"countryList\": [\n            \"Panama\",\n            \"Canada\",\n            \"Chile\",\n            \"Honduras\",\n            \"Mexico\",\n            \"Argentina\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"America\",\n        \"countryList\": [\n            \"Aruba\",\n            \"Curacao\",\n            \"Brazil\",\n            \"El Salvador\",\n            \"Jamaica\",\n            \"Paraguay\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"America\",\n        \"countryList\": [\n            \"Nicaragua\",\n            \"Peru\",\n            \"Uruguay\",\n            \"Venezuela\",\n            \"Ecuador\",\n            \"Puerto Rico\"\n        ],\n        \"countryCount\": 6\n    },\n    {\n        \"region\": \"APAC\",\n        \"countryList\": [\n            \"New Zealand\",\n            \"Vietnam\",\n            \"Taiwan\",\n            \"Hong Kong\"\n        ],\n        \"countryCount\": 4\n    },\n    {\n        \"region\": \"APAC\",\n        \"countryList\": [\n            \"Pakistan\",\n            \"Myanmar\",\n            \"Laos\",\n            \"Mongolia\"\n        ],\n        \"countryCount\": 4\n    }\n]"
+                }
+            ]
+        }
+    ]
+}

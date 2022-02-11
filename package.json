@@ -1,0 +1,37 @@
+{
+    "name": "sales-api-case-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "jest": {
+        "testEnvironment": "node",
+        "testRunner": "jest-jasmine2",
+        "coveragePathIgnorePatterns": [
+            "/node_modules/"
+        ]
+    },
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iremecem/sales-api-case-study.git"
+    },
+    "keywords": [],
+    "author": "Irem Ecem Yelkanat",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iremecem/sales-api-case-study/issues"
+    },
+    "homepage": "https://github.com/iremecem/sales-api-case-study#readme",
+    "dependencies": {
+        "axios": "^0.25.0",
+        "express": "^4.17.2",
+        "jest": "^27.5.1",
+        "mongoose": "^6.2.1",
+        "nodemon": "^2.0.15",
+        "supertest": "^6.2.2",
+        "winston": "^3.5.1"
+    }
+}
