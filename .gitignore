@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # Config files
-configs/
+configs_local/
 
 # Other files
 old.js
